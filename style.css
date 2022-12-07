@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+/*esconder a barra de navegação*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+body {
+  background: #63084D;
+  text-align: center;
+}
+
+.titulo {
+  font-family: 'Passions Conflict';
+  color: #ffffff;
+  font-size: 7rem;
+  margin: 0px;
+  padding: 20px;
+}
+
+button {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  text-align: center;
+  color: black;
+  border: 3px solid #000000;
+  background-color: #ca4040;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.sim {
+  position: absolute;
+  top: 70%;
+  right: 30%;
+  text-align: center;
+  color: black;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.drink {
+  font-size: 100px;
+  animation: beat .50s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes beat{
+  to { transform: scale(1.2); }
+}
+
+
